@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgreen;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aliceblue;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+i{background: transparent;
+    position: absolute;
+    right: 5px;
+    margin-top: 19px;
+}
+input{
+    padding: 10px;
+    width: 300px;
+    padding-right: 40px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box{
+    position: absolute;
+    top: 80px;
+}
+.box1{
+    position: absolute;
+    top: 180px;
+}
+.box1 i{
+    position: absolute;
+    right: 8px;
+    top: -8px;
+}
+.box2{
+    position: relative;
+    
+    top: 80px;
+}
+.box2 i{
+    position: absolute;
+    top: -10px;
+
+}
+.box3{
+    position: relative;
+    top: 150px;
+}
+.box3 i{
+    position: absolute;
+    top: -8px;
+}
+label{
+    position: absolute;
+    left: 10px;
+    top: -30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media only screen and (min-width:300px) and (max-width:700px){
+    
+    .container{
+        width: 300px;
+        
+    }
+    input{
+        width: 250px;
+    }
+}
